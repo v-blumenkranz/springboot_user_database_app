@@ -19,9 +19,7 @@ public class User {
     @Column(name = "address")
     private String address;
 
-    public User() {
-
-    }
+    public User() {}
 
     public User(String name, String email, String address) {
         this.name = name;
